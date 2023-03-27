@@ -41,6 +41,7 @@ body{
     background-repeat: none;
     opacity: 0;
     z-index: 0;
+    backface-visibility:hidden;
     -webkit-backface-visibility: hidden;
     -webkit-animation: imageAnimation 72s linear infinite 0s;
     -moz-animation: imageAnimation 72s linear infinite 0s;
@@ -48,6 +49,7 @@ body{
     -ms-animation: imageAnimation 72s linear infinite 0s;
     animation: imageAnimation 72s linear infinite 0s;
 }
+
 
 .cb-slideshow li:nth-child(1) { 
     background-image: url(../img/letter_bg_01.jpg)
@@ -106,7 +108,7 @@ body{
 	    transform: scale(1.40);
 	}
 	100% { opacity: 0 }
-}
+} 
 
 /* main section */
 .main-section{
