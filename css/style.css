@@ -15,8 +15,7 @@ body{
     left: 0;
     z-index: 1000;
     width: 100%;
-    /* height: 99%; */
-    height: 3300px;
+    height: 3000px;
 }
 
 /* Animation */
@@ -270,6 +269,10 @@ body{
     transform: scale(1, 1); 
   }
 
+    .btn:focus {
+    box-shadow: unset !important;
+    }
+
   .about p{
     color : var(--secondry) !important;
     z-index: 2000;
@@ -402,6 +405,7 @@ body{
 
 .contact .items{
     margin-top: 100px;
+    width: 50%;
 }
 
 .contact h3,
@@ -488,7 +492,11 @@ body{
 
         
     #particles-js {
-        height: 4900px;
+        height: 5000px;
+    }
+
+    .contact .items{
+        width: 90%;
     }
     
 }
